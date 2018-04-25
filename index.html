@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Adrian Lee</title>
+  <!-- Global Site Tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-107698340-1"></script>
+  <script>
+  window.dataLayer = window.dataLayer || [];
+
+function gtag() {
+  dataLayer.push(arguments);
+}
+gtag("js", new Date());
+gtag("config", "UA-107698340-1");
+</script>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+
+  <!-- Custom styles for this template -->
+  <link href="css/freelancer.min.css" rel="stylesheet">
+
+  <!-- start Mixpanel -->
+  <script type="text/javascript">
+  (function(e, a) {
+  if (!a.__SV) {
+    var b = window;
+    try {
+      var c,
+        l,
+        i,
+        j = b.location,
+        g = j.hash;
+      c = function(a, b) {
+        return (l = a.match(RegExp(b + "=([^&]*)"))) ? l[1] : null;
+      };
+      g &&
+        c(g, "state") &&
+        ((i = JSON.parse(decodeURIComponent(c(g, "state")))),
+        "mpeditor" === i.action &&
+          (b.sessionStorage.setItem("_mpcehash", g),
+          history.replaceState(
+            i.desiredHash || "",
+            e.title,
+            j.pathname + j.search
+          )));
+    } catch (m) {}
+    var k, h;
+    window.mixpanel = a;
+    a._i = [];
+    a.init = function(b, c, f) {
+      function e(b, a) {
+        var c = a.split(".");
+        2 == c.length && ((b = b[c[0]]), (a = c[1]));
+        b[a] = function() {
+          b.push([a].concat(Array.prototype.slice.call(arguments, 0)));
+        };
+      }
+      var d = a;
+      "undefined" !== typeof f ? (d = a[f] = []) : (f = "mixpanel");
+      d.people = d.people || [];
+      d.toString = function(b) {
+        var a = "mixpanel";
+        "mixpanel" !== f && (a += "." + f);
+        b || (a += " (stub)");
+        return a;
+      };
+      d.people.toString = function() {
+        return d.toString(1) + ".people (stub)";
+      };
+      k = "disable time_event track track_pageview track_links track_forms register register_once alias unregister identify name_tag set_config reset people.set people.set_once people.unset people.increment people.append people.union people.track_charge people.clear_charges people.delete_user".split(
+        " "
+      );
+      for (h = 0; h < k.length; h++) e(d, k[h]);
+      a._i.push([b, c, f]);
+    };
+    a.__SV = 1.2;
+    b = e.createElement("script");
+    b.type = "text/javascript";
+    b.async = !0;
+    b.src =
+      "undefined" !== typeof MIXPANEL_CUSTOM_LIB_URL
+        ? MIXPANEL_CUSTOM_LIB_URL
+        : "file:" === e.location.protocol &&
+          "//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js".match(/^\/\//)
+          ? "https://cdn.mxpnl.com/libs/mixpanel-2-latest.min.js"
+          : "//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js";
+    c = e.getElementsByTagName("script")[0];
+    c.parentNode.insertBefore(b, c);
+  }
+})(document, window.mixpanel || []);
+mixpanel.init("5dc978172398848476c455cf8c2f185e");
+</script>
+  <!-- end Mixpanel -->
+</head>
+
+<body id="page-top">
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">Adrian Lee</a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fa fa-bars"></i>
+        </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item mx-1">
+            <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
+          </li>
+          <li class="nav-item mx-1">
+            <a class="nav-link js-scroll-trigger" href="#about">About</a>
+          </li>
+          <li class="nav-item mx-1 dropdown">
+            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Download</a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="https://www.dropbox.com/s/a5enzopr2l6k2re/Resume_Adrian.pdf" onclick="window.open(this.href); return false;" data-toggle="tooltip" data-placement="right" title="Simplified">
+                Resume
+              </a>
+              <a class="dropdown-item" href="https://www.dropbox.com/s/s66lnpco5glfr4d/Adrian_2018.pdf" onclick="window.open(this.href); return false;" data-toggle="tooltip" data-placement="right" title="Detailed">
+                CV
+              </a>
+            </div>
+          </li>
+          <!-- <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+            </li> -->
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Header -->
+  <header class="masthead">
+    <div class="container">
+      <img class="img-fluid" src="img/profile.png">
+      <div class="intro-text">
+        <span class="name">Adrian Lee</span>
+        <hr class="star-light">
+        <span class="skills">Product Management <span class="fa fa-star"></span> Full Stack Web Development <span class="fa fa-star"></span> UX Design</span>
+      </div>
+      <div class="cert">
+        <img src="img/badges/CSPO.png">
+        <img src="img/badges/ICP.png">
+      </div>
+    </div>
+  </header>
+
+  <!-- Portfolio Grid Section -->
+  <section id="portfolio">
+    <div class="container">
+      <h2 class="text-center">Portfolio</h2>
+      <hr class="star-primary">
+      <div class="row">
+        <div class="col-sm-4 portfolio-item">
+          <a class="portfolio-link" href="#portfolioModal1" data-toggle="modal">
+            <div class="caption">
+              <div class="caption-content">
+                <i class="fa fa-search-plus fa-3x"></i>
+              </div>
+            </div>
+            <img class="img-fluid" src="img/portfolio/game.png" alt="">
+          </a>
+        </div>
+        <div class="col-sm-4 portfolio-item">
+          <a class="portfolio-link" href="#portfolioModal2" data-toggle="modal">
+            <div class="caption">
+              <div class="caption-content">
+                <i class="fa fa-search-plus fa-3x"></i>
+              </div>
+            </div>
+            <img class="img-fluid" src="img/portfolio/cabin.png">
+          </a>
+        </div>
+        <!-- <div class="col-sm-4 portfolio-item">
+          <a class="portfolio-link" href="#portfolioModal3" data-toggle="modal">
+            <div class="caption">
+              <div class="caption-content">
+                <i class="fa fa-search-plus fa-3x"></i>
+              </div>
+            </div>
+            <img class="img-fluid" src="img/portfolio/circus.png">
+          </a>
+        </div> -->
+        <div class="col-sm-4 portfolio-item">
+          <a class="portfolio-link" href="#portfolioModal3" data-toggle="modal">
+            <div class="caption">
+              <div class="caption-content">
+                <i class="fa fa-search-plus fa-3x"></i>
+              </div>
+            </div>
+            <img class="img-fluid" src="img/portfolio/circus.png">
+          </a>
+        </div>
+        <!-- <div class="col-sm-4 portfolio-item">
+          <a class="portfolio-link" href="#portfolioModal5" data-toggle="modal">
+            <div class="caption">
+              <div class="caption-content">
+                <i class="fa fa-search-plus fa-3x"></i>
+              </div>
+            </div>
+            <img class="img-fluid" src="img/portfolio/safe.png" alt="">
+          </a>
+        </div>
+        <div class="col-sm-4 portfolio-item">
+          <a class="portfolio-link" href="#portfolioModal6" data-toggle="modal">
+            <div class="caption">
+              <div class="caption-content">
+                <i class="fa fa-search-plus fa-3x"></i>
+              </div>
+            </div>
+            <img class="img-fluid" src="img/portfolio/cake.png" alt="">
+          </a>
+        </div> -->
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="success" id="about">
+    <div class="container">
+      <h2 class="text-center">About</h2>
+      <hr class="star-light">
+      <div class="row">
+        <div class="col-lg-5 ml-auto">
+          <p>
+            <strong>Aspiring</strong> to be a product manager down the road.<br>
+            Experienced in full stack web development.<br>
+          </p>
+          <p>
+            Years of experience across various sectors.<br> A <i class="fa fa-fire" aria-hidden="true"></i> desire to learn and try out new things.<br>
+            <i class="fa fa-heart" aria-hidden="true"></i> to build user-friendly products that place the users first before others.
+          </p>
+          <p>
+            Want to know more about me?<br>Contact me at <a style="color:white;" href="tel:+6584332259" data-toggle="tooltip" data-placement="right" title="Call 84332259"><strong>84332259</strong></a>
+          </p>
+        </div>
+        <div class="col-lg-5 mr-auto">
+          <h4 class="text-center"><u>Skills</u></h4>
+          <p class="text-center">
+            <i class="fa fa-html5" aria-hidden="true"></i> HTML5 & <i class="fa fa-css3" aria-hidden="true"></i> CSS3, Bootstrap<br> JavaScript & jQuery<br> SQL<br> Node.js & Ruby on Rails (RoR)<br> React & Vue.js<br> User Experience Design<br> Design Thinking<br> Product Management<br> Agile & Scrum<br>
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+  <div class="scroll-top d-lg-none">
+    <a class="btn btn-primary js-scroll-trigger" href="#page-top">
+        <i class="fa fa-chevron-up"></i>
+      </a>
+  </div>
+
+  <!-- Portfolio Modals -->
+  <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <div class="modal-body">
+                <h2>ColorCraze</h2>
+                <hr class="star-primary">
+                <img class="img-fluid img-centered" src="img/portfolio/game.png">
+                <p>Welcome to Color Craze! An addictive, fast-paced colour picker game</p>
+                <p>This game is built using Bootstrap and jQuery. This game is about picking the right color of the word given to proceed. The time given for the game is about 30 seconds. Pick the correct "color" of the word to get the highest score!</p>
+                <ul class="list-inline item-details">
+                  <li><strong>Stack used: </strong> Bootstrap, jQuery
+                  </li><br>
+                  <li>
+                    <strong>
+                        <a href="https://leeadrian841.github.io/ColorCraze/" onclick="window.open(this.href); return false;">Website</a>
+                      </strong>
+                  </li>
+                  <!-- <li>
+                    <strong>
+                        <a href="https://github.com/leeadrian841/ColorCraze" onclick="window.open(this.href); return false;">Github</a>
+                      </strong>
+                  </li> -->
+                </ul>
+                <button class="btn btn-success" type="button" data-dismiss="modal">
+                    <i class="fa fa-times"></i>
+                    Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <div class="modal-body">
+                <h2>EasyRetail</h2>
+                <hr class="star-primary">
+                <img class="img-fluid img-centered" src="img/portfolio/cabin.png">
+                <p>Welcome to EasyRetail! A sleek and easy retail management platform</p>
+                <p>Imagine you are a business tycoon with plenty of properties and tenants to manage. And you need a really sleek platform to manage them.</p>
+                <p>EasyRetail is the platform that can be used to manage both the properties and tenants. You can edit their info and delete them easily just with a button!</p>
+                <ul class="list-inline item-details">
+                  <li><strong>Stack used: </strong> Bootstrap, jQuery, Node.js, Express.js, MongoDB
+                  </li><br>
+                  <li>
+                    <strong>
+                        <a href="https://adrian-easyretail.herokuapp.com/" onclick="window.open(this.href); return false;">Website</a>
+                      </strong>
+                  </li>
+                </ul>
+                <button class="btn btn-success" type="button" data-dismiss="modal">
+                    <i class="fa fa-times"></i>
+                    Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <div class="modal-body">
+                <h2>Ease-Co</h2>
+                <hr class="star-primary">
+                <img class="img-fluid img-centered" src="img/portfolio/circus.png">
+                <p>Welcome to Ease-Co! A sleek and easy on-demand tasks platform for busy people by Ease-Co</p>
+                <p>Uesrs can request tasks to be done and also do tasks as requested by other users.</p>
+                <ul class="list-inline item-details">
+                  <li><strong>Stack used: </strong> Bootstrap, jQuery, Ruby on Rails (RoR)
+                  </li><br>
+                  <li>
+                    <strong>
+                        <a href="https://ease-co.herokuapp.com/" onclick="window.open(this.href); return false;">Website</a>
+                      </strong>
+                  </li>
+                </ul>
+                <button class="btn btn-success" type="button" data-dismiss="modal">
+                    <i class="fa fa-times"></i>
+                    Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> -->
+  <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <div class="modal-body">
+                <h2>Fitmeets</h2>
+                <hr class="star-primary">
+                <img class="img-fluid img-centered" src="img/portfolio/circus.png" alt="">
+                <p>Welcome to FitMeets! A sleek and easy meetup platform for sporty people by FitMeets</p>
+                <p>Imagine you are the sporty type and needs people to accompany you. And you need a really sleek platform to do that.</p>
+                <p>FitMeets is the platform that can be used to organise meetups for sports. You can create events and join them at ease!</p>
+                <ul class="list-inline item-details">
+                  <li><strong>Stack used: </strong> Bootstrap, jQuery, React, Ruby on Rails (RoR)
+                  </li><br>
+                  <li>
+                    <strong>
+                        <a href="https://project4-fitmeets.herokuapp.com/" onclick="window.open(this.href); return false;">Website</a>
+                      </strong>
+                  </li>
+                </ul>
+                <button class="btn btn-success" type="button" data-dismiss="modal">
+                    <i class="fa fa-times"></i>
+                    Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <div class="modal-body">
+                <h2>Project Title</h2>
+                <hr class="star-primary">
+                <img class="img-fluid img-centered" src="img/portfolio/safe.png" alt="">
+                <p>
+                  <a href="https://sellfy.com/p/8Q9P/jV3VZ/"></a>
+                </p>
+                <ul class="list-inline item-details">
+                  <li>Client:
+                    <strong>
+                        <a href=""></a>
+                      </strong>
+                  </li>
+                  <li>Date:
+                    <strong>
+                        <a href=""></a>
+                      </strong>
+                  </li>
+                  <li>Service:
+                    <strong>
+                        <a href=""></a>
+                      </strong>
+                  </li>
+                </ul>
+                <button class="btn btn-success" type="button" data-dismiss="modal">
+                    <i class="fa fa-times"></i>
+                    Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <div class="modal-body">
+                <h2>Project Title</h2>
+                <hr class="star-primary">
+                <img class="img-fluid img-centered" src="img/portfolio/submarine.png" alt="">
+                <p>
+                  <a href="https://sellfy.com/p/8Q9P/jV3VZ/"></a>
+                </p>
+                <ul class="list-inline item-details">
+                  <li>Client:
+                    <strong>
+                        <a href=""></a>
+                      </strong>
+                  </li>
+                  <li>Date:
+                    <strong>
+                        <a href=""></a>
+                      </strong>
+                  </li>
+                  <li>Service:
+                    <strong>
+                        <a href=""></a>
+                      </strong>
+                  </li>
+                </ul>
+                <button class="btn btn-success" type="button" data-dismiss="modal">
+                    <i class="fa fa-times"></i>
+                    Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> -->
+
+  <!-- Footer -->
+  <footer class="text-center">
+    <div class="footer-above">
+      <div class="container">
+        <div class="row">
+          <div class="footer-col col-md-4">
+          </div>
+          <div class="footer-col col-md-4">
+            <ul class="list-inline">
+              <li class="list-inline-item">
+                <a class="btn-social btn-outline" href="mailto:leeadrian841@gmail.com" data-toggle="tooltip" data-placement="top" title="leeadrian841@gmail.com">
+                    <i class="fa fa-fw fa-envelope"></i>
+                  </a>
+              </li>
+              <li class="list-inline-item">
+                <a class="btn-social btn-outline" href="https://www.linkedin.com/in/leeadrian841/" onclick="window.open(this.href); return false;" data-toggle="tooltip" data-placement="top" title="@leeadrian841">
+                    <i class="fa fa-fw fa-linkedin"></i>
+                  </a>
+              </li>
+              <li class="list-inline-item">
+                <a class="btn-social btn-outline" href="https://github.com/leeadrian841" onclick="window.open(this.href); return false;" data-toggle="tooltip" data-placement="top" title="@leeadrian841">
+                    <i class="fa fa-fw fa-github"></i>
+                  </a>
+              </li>
+              <!-- <li class="list-inline-item">
+                  <a class="btn-social btn-outline" href="#">
+                    <i class="fa fa-fw fa-dribbble"></i>
+                  </a>
+                </li> -->
+            </ul>
+          </div>
+          <div class="footer-col col-md-4">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-below">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            &copy; 2018 Adrian Lee. All rights reserved.
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/popper/popper.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <!-- Custom scripts -->
+  <script src="js/freelancer.min.js"></script>
+
+</body>
+
+</html>
