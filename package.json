@@ -1,0 +1,27 @@
+{
+  "name": "leeadrian-portfolio",
+  "version": "1.0.0",
+  "description": "Adrian Lee's Portfolio Website",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"No tests specified\"",
+    "build": "echo \"Build complete\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/leeadrian841/leeadrian841.github.io"
+  },
+  "keywords": [
+    "portfolio",
+    "bootstrap",
+    "github-pages"
+  ],
+  "author": "Adrian Lee",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^5.3.2",
+    "jquery": "^3.7.1",
+    "@fortawesome/fontawesome-free": "^6.5.1"
+  },
+  "devDependencies": {}
+}
