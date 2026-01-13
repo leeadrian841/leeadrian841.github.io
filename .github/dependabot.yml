@@ -1,0 +1,30 @@
+version: 2
+updates:
+  # Enable npm dependency updates
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+      time: "09:00"
+    # Maximum number of open pull requests for npm updates
+    open-pull-requests-limit: 10
+    # Add reviewers (optional - add your GitHub username)
+    # reviewers:
+    #   - "leeadrian841"
+    # Group minor and patch updates together
+    groups:
+      dependencies:
+        patterns:
+          - "*"
+        update-types:
+          - "minor"
+          - "patch"
+    # Only create PRs for security updates and major versions
+    # Uncomment if you want fewer PRs:
+    # allow:
+    #   - dependency-type: "direct"
+    #     update-types: ["version-update:semver-major", "version-update:semver-minor"]
+    commit-message:
+      prefix: "npm"
+      include: "scope"
