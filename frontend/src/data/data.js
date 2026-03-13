@@ -1,7 +1,7 @@
 export const personalInfo = {
   name: "Adrian Lee",
   title: "IT Engineer",
-  tagline: "Cybersecurity | Infrastructure | Product Management",
+  tagline: "Cybersecurity | Product Management | UX Research | IT",
   bio: `IT Engineer with a diverse background spanning cybersecurity, network infrastructure, and product management. Experienced in configuring and hardening network systems, conducting security assessments, and managing end-to-end product lifecycles across multiple industries. Passionate about building secure, user-centric solutions and bridging the gap between technical implementation and business strategy.`,
   location: "Singapore",
   email: "leeadrian841@gmail.com",
@@ -84,9 +84,9 @@ export const projects = [
     title: "Email Forensics Toolkit",
     category: "Cybersecurity",
     summary: "A comprehensive email header analysis tool for investigating phishing attempts and email spoofing. Parses SMTP headers to trace email routing paths and identify suspicious origins.",
-    tech: ["Python", "JavaScript", "Network Analysis"],
+    tech: ["Email Analysis"],
     image: "/assets/portfolio/safe.png",
-    liveUrl: "#",
+    liveUrl: "https://leeadrian841.github.io/email-forsensics/",
     repoUrl: "https://github.com/leeadrian841"
   },
   {
