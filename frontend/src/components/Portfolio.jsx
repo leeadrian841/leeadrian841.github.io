@@ -51,7 +51,6 @@ function ProjectModal({ project, show, onClose }) {
         </button>
       </Modal.Header>
       <Modal.Body className="project-modal-body">
-        <img src={project.image} alt={project.title} className="project-modal-img" />
         <span className="project-category modal-cat">{project.category}</span>
         <p className="project-summary" data-testid="project-modal-summary">{project.summary}</p>
         <div className="project-modal-tech">
@@ -105,7 +104,6 @@ function Portfolio() {
           <h2 className="section-title" data-testid="portfolio-title">
             <span className="accent-cyan">&lt;</span> Portfolio <span className="accent-cyan">/&gt;</span>
           </h2>
-          <p className="section-subtitle">Projects and work I've built or contributed to</p>
         </div>
         <div className="filter-tabs" data-testid="portfolio-filters">
           {categories.map((cat) => (

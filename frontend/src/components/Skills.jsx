@@ -11,7 +11,6 @@ function Skills() {
           <h2 className="section-title" data-testid="skills-title">
             <span className="accent-cyan">&lt;</span> Skills <span className="accent-cyan">/&gt;</span>
           </h2>
-          <p className="section-subtitle">Technical proficiencies and competencies</p>
         </div>
         <Row>
           {skillCategories.map((cat, i) => (

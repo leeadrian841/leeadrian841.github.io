@@ -44,7 +44,6 @@ function Certifications() {
           <h2 className="section-title" data-testid="certifications-title">
             <span className="accent-cyan">&lt;</span> Certifications <span className="accent-cyan">/&gt;</span>
           </h2>
-          <p className="section-subtitle">Professional certifications and credentials</p>
         </div>
         <Row className="justify-content-center">
           {certifications.map((cert, i) => (
