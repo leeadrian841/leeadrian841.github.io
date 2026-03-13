@@ -86,7 +86,7 @@ export const projects = [
     summary: "Email analysis portfolio showing real-world investigation case studies on phishing and scam emails. Learn to identify phishing email and understand email headers.",
     tech: ["Email Analysis"],
     image: "/assets/portfolio/safe.png",
-    liveUrl: "https://leeadrian841.github.io/email-forsensics",
+    liveUrl: "https://leeadrian841.github.io/email-forsensics/",
     repoUrl: null
   },
     {
