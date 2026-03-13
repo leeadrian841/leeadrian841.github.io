@@ -10,12 +10,6 @@ function ProjectCard({ project, onOpen }) {
         onClick={() => onOpen(project)}
         data-testid={`project-card-${project.id}`}
       >
-        <div className="project-card-img-wrap">
-          <img src={project.image} alt={project.title} className="project-card-img" />
-          <div className="project-card-overlay">
-            <i className="fas fa-expand"></i>
-          </div>
-        </div>
         <div className="project-card-body">
           <span className="project-category">{project.category}</span>
           <h3 className="project-title">{project.title}</h3>
