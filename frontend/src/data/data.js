@@ -81,13 +81,23 @@ export const skills = {
 export const projects = [
   {
     id: "email-forensics",
-    title: "Email Forensics Toolkit",
+    title: "Email Forensics",
     category: "Cybersecurity",
-    summary: "A comprehensive email header analysis tool for investigating phishing attempts and email spoofing. Parses SMTP headers to trace email routing paths and identify suspicious origins.",
+    summary: "Email analysis portfolio showing real-world investigation case studies on phishing and scam emails. Learn to identify phishing email and understand email headers.",
     tech: ["Email Analysis"],
     image: "/assets/portfolio/safe.png",
-    liveUrl: "https://leeadrian841.github.io/email-forsensics/",
-    repoUrl: "https://github.com/leeadrian841"
+    liveUrl: "https://leeadrian841.github.io/email-forsensics",
+    repoUrl: null
+  },
+    {
+    id: "password-check-here",
+    title: "Password Checker",
+    category: "Cybersecurity",
+    summary: "A modern password strength checker integrated with HaveIBeenPwned (HIBP) API for data breach scanning.",
+    tech: ["HTML/CSS","Javascript", "API"],
+    image: "/assets/portfolio/submarine.png",
+    liveUrl: "https://leeadrian841.github.io/password-check-here/",
+    repoUrl: null
   },
   {
     id: "colorcraze",
@@ -97,7 +107,7 @@ export const projects = [
     tech: ["Bootstrap", "jQuery", "JavaScript"],
     image: "/assets/portfolio/game.png",
     liveUrl: "https://leeadrian841.github.io/ColorCraze/",
-    repoUrl: "https://github.com/leeadrian841/ColorCraze"
+    repoUrl: null
   },
   {
     id: "shopee-challenge",
@@ -110,34 +120,14 @@ export const projects = [
     repoUrl: null
   },
   {
-    id: "network-monitor",
-    title: "Network Intrusion Detection System",
-    category: "Cybersecurity",
-    summary: "A real-time network traffic monitoring and anomaly detection system. Analyzes packet data to identify potential security threats and intrusion attempts.",
-    tech: ["Python", "Wireshark", "Linux", "Wazuh"],
-    image: "/assets/portfolio/submarine.png",
-    liveUrl: "#",
-    repoUrl: "https://github.com/leeadrian841"
-  },
-  {
-    id: "infrastructure-automation",
-    title: "Infrastructure Automation Scripts",
+    id: "python-network-scanner",
+    title: "Network Scanning CLI Tool",
     category: "DevOps",
-    summary: "Collection of automation scripts for server provisioning, firewall configuration, and security patch deployment. Streamlines IMAC operations and system maintenance.",
-    tech: ["Bash", "Linux", "Networking", "Security"],
+    summary: "Network scanning tool for Command Line Interface. Built using Python.",
+    tech: ["Bash", "Linux", "Networking", "Security", "Python"],
     image: "/assets/portfolio/circus.png",
     liveUrl: null,
-    repoUrl: "https://github.com/leeadrian841"
-  },
-  {
-    id: "analytics-dashboard",
-    title: "Analytics Dashboard",
-    category: "Product Management",
-    summary: "Custom analytics dashboard for tracking and reporting financial metrics, resulting in 50% faster financial reporting. Built during tenure at Gmedes.",
-    tech: ["React", "Google Analytics 4", "Mixpanel", "Hotjar"],
-    image: "/assets/portfolio/cake.png",
-    liveUrl: null,
-    repoUrl: null
+    repoUrl: "https://github.com/leeadrian841/python-network-scanner"
   }
 ];
 
@@ -147,14 +137,14 @@ export const certifications = [
     issuer: "Scrum Alliance",
     year: "2018",
     badgeImage: "/assets/badges/CSPO.png",
-    verifyUrl: "https://www.scrumalliance.org/"
+    verifyUrl: null
   },
   {
     name: "ICAgile Certified Professional (ICP)",
     issuer: "ICAgile",
     year: "2017",
     badgeImage: "/assets/badges/ICP.png",
-    verifyUrl: "https://www.icagile.com/"
+    verifyUrl: "https://www.credly.com/badges/7b0e5a9b-92e5-4d9d-93d7-cd75e30f2434/public_url"
   },
   {
     name: "CompTIA Security+",
