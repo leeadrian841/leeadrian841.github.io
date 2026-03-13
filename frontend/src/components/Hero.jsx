@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react'
 import { Container } from 'react-bootstrap'
 import { personalInfo } from '../data/data'
 
-const roles = ["IT Engineer", "Cybersecurity Specialist", "Product Manager", "Full Stack Developer"]
+const roles = ["IT Engineer", "Cybersecurity Associate", "Product Manager", "Web Developer"]
 
 function Hero() {
   const [roleIndex, setRoleIndex] = useState(0)
@@ -86,7 +86,7 @@ function Hero() {
               <p><span className="t-prompt">$</span> whoami</p>
               <p className="t-output">Adrian Lee</p>
               <p><span className="t-prompt">$</span> cat role.txt</p>
-              <p className="t-output">IT Engineer @ RFNet</p>
+              <p className="t-output">Aspiring Cybersecurity Associate</p>
               <p><span className="t-prompt">$</span> ls skills/</p>
               <p className="t-output">cybersecurity/ networking/ product-mgmt/ web-dev/</p>
               <p><span className="t-prompt">$</span> uptime</p>
