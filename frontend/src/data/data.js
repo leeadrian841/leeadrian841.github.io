@@ -80,6 +80,16 @@ export const skills = {
 
 export const projects = [
   {
+    id: "grc-portfolio",
+    title: "GRC Portfolio",
+    category: "Cybersecurity",
+    summary: "GRC portfolio for a fictional SG fintech, complying with various framewworks such as MAS TRM Guidelines, PDPA Act 2012 and Cybersecurity (Amended) Act 2024.",
+    tech: ["GRC"],
+    image: "/assets/portfolio/safe.png",
+    liveUrl: "https://leeadrian841.github.io/grc-portfolio/",
+    repoUrl: null
+  },
+  {
     id: "email-forensics",
     title: "Email Forensics",
     category: "Cybersecurity",
