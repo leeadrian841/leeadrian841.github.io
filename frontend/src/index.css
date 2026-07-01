@@ -373,7 +373,7 @@ body {
 
 .section-surface {
   padding: 6rem 0;
-  background: var(--bg-surface);
+  background: var(--bg-primary);
 }
 
 .section-header {
@@ -556,7 +556,7 @@ body {
 }
 
 .about-bio-card {
-  background: rgba(11, 17, 32, 0.5);
+  background: var(--bg-surface);
   border: 1px solid var(--border-color);
   border-radius: 12px;
   padding: 2.5rem 2rem;
@@ -774,7 +774,7 @@ body {
 }
 
 .cert-card {
-  background: rgba(11, 17, 32, 0.5);
+  background: var(--bg-surface);
   border: 1px solid var(--border-color);
   border-radius: 12px;
   padding: 2rem 1.5rem;
@@ -876,7 +876,7 @@ body {
    FOOTER
    ============================ */
 .site-footer {
-  background: var(--bg-surface);
+  background: var(--bg-primary);
   border-top: 1px solid var(--border-color);
   padding: 2.5rem 0;
 }
