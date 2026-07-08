@@ -154,7 +154,7 @@ export const certifications = [
     issuer: "Coursera",
     year: "2024",
     badgeImage: null,
-    verifyUrl: "https://www.coursera.org/professional-certificates/google-cybersecurity",
+    verifyUrl: "https://coursera.org/share/6e4b34fd5e33aca6822fc030e43d3ed9",
     icon: "fa-certificate"
   },
   {
