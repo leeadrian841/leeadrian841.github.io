@@ -54,7 +54,7 @@ export const skills = {
   cybersecurity: {
     label: "Cybersecurity",
     icon: "fa-shield-halved",
-    items: ["Wireshark", "Wazuh", "Linux", "Oracle VM VirtualBox", "Network Traffic Analysis", "OSINT", "Incident Handling"]
+    items: ["GRC", "Wireshark", "Wazuh", "Linux", "Oracle VM VirtualBox", "Network Traffic Analysis", "OSINT", "Incident Handling"]
   },
   technology: {
     label: "Technology",
@@ -101,7 +101,7 @@ export const projects = [
   },
     {
     id: "password-check-here",
-    title: "Password Checker",
+    title: "Password Check Here",
     category: "Cybersecurity",
     summary: "A modern password strength checker integrated with HaveIBeenPwned (HIBP) API for data breach scanning.",
     tech: ["HTML/CSS","Javascript", "API"],
@@ -143,18 +143,19 @@ export const projects = [
 
 export const certifications = [
   {
-    name: "Certified Scrum Product Owner (CSPO)",
-    issuer: "Scrum Alliance",
-    year: "2018",
-    badgeImage: "/assets/badges/CSPO.png",
-    verifyUrl: null
-  },
-  {
     name: "ICAgile Certified Professional (ICP)",
     issuer: "ICAgile",
     year: "2017",
     badgeImage: "/assets/badges/ICP.png",
     verifyUrl: "https://www.credly.com/badges/7b0e5a9b-92e5-4d9d-93d7-cd75e30f2434/public_url"
+  },
+  {
+    name: "Google Cybersecurity Professional Certificate",
+    issuer: "Coursera",
+    year: "2024",
+    badgeImage: null,
+    verifyUrl: "https://www.coursera.org/professional-certificates/google-cybersecurity",
+    icon: "fa-certificate"
   },
   {
     name: "CompTIA Security+",
@@ -173,11 +174,10 @@ export const certifications = [
     icon: "fa-laptop-code"
   },
   {
-    name: "Google Cybersecurity Professional Certificate",
-    issuer: "Coursera",
-    year: "2024",
-    badgeImage: null,
-    verifyUrl: "https://www.coursera.org/professional-certificates/google-cybersecurity",
-    icon: "fa-certificate"
+    name: "Certified Scrum Product Owner (CSPO)",
+    issuer: "Scrum Alliance",
+    year: "2018",
+    badgeImage: "/assets/badges/CSPO.png",
+    verifyUrl: null
   }
 ];
