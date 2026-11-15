@@ -13,7 +13,7 @@ export const personalInfo = {
 
 export const experience = [
   {
-    role: "Project Engineer (AAS)",
+    role: "Project Engineer (Central Project Engineering)",
     company: "RFNet",
     period: "Dec 2025 - Present",
     description: "Configuring and hardening network infrastructure for Automated Armory System kiosks. Conducting Factory and On-Site Acceptance Testing for MHA agencies. Managing physical access control operations and supporting multi-agency onboarding initiatives."
@@ -99,7 +99,17 @@ export const projects = [
     liveUrl: "https://leeadrian841.github.io/email-forensics/",
     repoUrl: null
   },
-    {
+  {
+    id: "ctf-writeups",
+    title: "CTF Writeups",
+    category: "Cybersecurity",
+    summary: "A modern password strength checker integrated with HaveIBeenPwned (HIBP) API for data breach scanning.",
+    tech: ["Critical Thinking", "Cybersecurity", "OSINT", "Linux"],
+    image: "/assets/portfolio/submarine.png",
+    liveUrl: "https://leeadrian841.github.io/ctf-writeups/",
+    repoUrl: null
+  },
+  {
     id: "password-check-here",
     title: "Password Check Here",
     category: "Cybersecurity",
