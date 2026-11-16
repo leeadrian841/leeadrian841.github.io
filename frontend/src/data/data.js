@@ -80,6 +80,16 @@ export const skills = {
 
 export const projects = [
   {
+    id: "ctf-writeups",
+    title: "CTF Writeups",
+    category: "Cybersecurity",
+    summary: "A modern password strength checker integrated with HaveIBeenPwned (HIBP) API for data breach scanning.",
+    tech: ["Critical Thinking", "Cybersecurity", "OSINT", "Linux"],
+    image: "/assets/portfolio/submarine.png",
+    liveUrl: "https://leeadrian841.github.io/ctf-writeups/",
+    repoUrl: null
+  },
+  {
     id: "grc-portfolio",
     title: "GRC Portfolio",
     category: "Cybersecurity",
@@ -97,16 +107,6 @@ export const projects = [
     tech: ["Email Analysis"],
     image: "/assets/portfolio/safe.png",
     liveUrl: "https://leeadrian841.github.io/email-forensics/",
-    repoUrl: null
-  },
-  {
-    id: "ctf-writeups",
-    title: "CTF Writeups",
-    category: "Cybersecurity",
-    summary: "A modern password strength checker integrated with HaveIBeenPwned (HIBP) API for data breach scanning.",
-    tech: ["Critical Thinking", "Cybersecurity", "OSINT", "Linux"],
-    image: "/assets/portfolio/submarine.png",
-    liveUrl: "https://leeadrian841.github.io/ctf-writeups/",
     repoUrl: null
   },
   {
