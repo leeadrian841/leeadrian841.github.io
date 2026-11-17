@@ -83,7 +83,7 @@ export const projects = [
     id: "ctf-writeups",
     title: "CTF Writeups",
     category: "Cybersecurity",
-    summary: "Hands-on writeups from Capture the Flag challenges and retired lab machines, each documenting the full path: recon, hypotheses, dead ends, root cause and mitigation.",
+    summary: "CTF writeups structured like analyst reports: recon, hypotheses, dead ends and the working solution. Currently covers OverTheWire Bandit and Krypton, with more platforms to come.",
     tech: ["Critical Thinking", "Cybersecurity", "OSINT", "Linux"],
     image: "/assets/portfolio/submarine.png",
     liveUrl: "https://leeadrian841.github.io/ctf-writeups/",
