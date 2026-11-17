@@ -17,7 +17,6 @@ updates:
           - "react"
           - "react-dom"
           - "react-bootstrap"
-          - "react-router-dom"
       vite:
         patterns:
           - "vite"
