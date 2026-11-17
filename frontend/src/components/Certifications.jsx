@@ -2,16 +2,7 @@ import { Container, Row, Col } from 'react-bootstrap'
 import { certifications } from '../data/data'
 
 function CertCard({ cert, index }) {
-  return (
-    <Col lg={4} md={6} className="mb-4">
-      <a
-        href={cert.verifyUrl}
-        target="_blank"
-        rel="noopener noreferrer"
-        className="cert-card-link"
-        data-testid={`cert-card-${index}`}
-        aria-label={`Verify ${cert.name} certification`}
-      >
+  const card = (
         <div className="cert-card">
           <div className="cert-badge-wrap">
             {cert.badgeImage ? (
@@ -27,11 +18,32 @@ function CertCard({ cert, index }) {
             <p className="cert-issuer">{cert.issuer}</p>
             <span className="cert-year">{cert.year}</span>
           </div>
-          <div className="cert-verify-hint">
-            <i className="fas fa-external-link-alt"></i> Verify
-          </div>
+          {cert.verifyUrl && (
+            <div className="cert-verify-hint">
+              <i className="fas fa-external-link-alt"></i> Verify
+            </div>
+          )}
         </div>
-      </a>
+  )
+
+  return (
+    <Col lg={4} md={6} className="mb-4">
+      {cert.verifyUrl ? (
+        <a
+          href={cert.verifyUrl}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="cert-card-link"
+          data-testid={`cert-card-${index}`}
+          aria-label={`Verify ${cert.name} certification`}
+        >
+          {card}
+        </a>
+      ) : (
+        <div className="cert-card-link" data-testid={`cert-card-${index}`}>
+          {card}
+        </div>
+      )}
     </Col>
   )
 }

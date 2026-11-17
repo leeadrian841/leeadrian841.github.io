@@ -83,7 +83,7 @@ export const projects = [
     id: "ctf-writeups",
     title: "CTF Writeups",
     category: "Cybersecurity",
-    summary: "A modern password strength checker integrated with HaveIBeenPwned (HIBP) API for data breach scanning.",
+    summary: "Hands-on writeups from Capture the Flag challenges and retired lab machines, each documenting the full path: recon, hypotheses, dead ends, root cause and mitigation.",
     tech: ["Critical Thinking", "Cybersecurity", "OSINT", "Linux"],
     image: "/assets/portfolio/submarine.png",
     liveUrl: "https://leeadrian841.github.io/ctf-writeups/",
@@ -93,7 +93,7 @@ export const projects = [
     id: "grc-portfolio",
     title: "GRC Portfolio",
     category: "Cybersecurity",
-    summary: "GRC portfolio for a fictional SG fintech, complying with various framewworks such as MAS TRM Guidelines, PDPA Act 2012 and Cybersecurity (Amended) Act 2024.",
+    summary: "GRC portfolio for a fictional SG fintech, complying with various frameworks such as MAS TRM Guidelines, PDPA Act 2012 and Cybersecurity (Amended) Act 2024.",
     tech: ["GRC"],
     image: "/assets/portfolio/safe.png",
     liveUrl: "https://leeadrian841.github.io/grc-portfolio/",
@@ -172,7 +172,7 @@ export const certifications = [
     issuer: "CompTIA",
     year: "Ongoing",
     badgeImage: null,
-    verifyUrl: "https://www.comptia.org/certifications/security",
+    verifyUrl: null,
     icon: "fa-shield-halved"
   },
   {
@@ -180,7 +180,7 @@ export const certifications = [
     issuer: "CompTIA",
     year: "Ongoing",
     badgeImage: null,
-    verifyUrl: "https://www.comptia.org/certifications/a",
+    verifyUrl: null,
     icon: "fa-laptop-code"
   },
   {

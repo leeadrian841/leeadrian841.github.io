@@ -5,9 +5,19 @@ import { projects } from '../data/data'
 function ProjectCard({ project, onOpen }) {
   return (
     <Col lg={4} md={6} className="mb-4">
+      {/* div with role=button, not <button>: the card holds an h3 and divs, which <button> may not contain */}
       <div
+        role="button"
+        tabIndex={0}
+        aria-label={`Open details for ${project.title}`}
         className="project-card"
         onClick={() => onOpen(project)}
+        onKeyDown={(e) => {
+          if (e.key === 'Enter' || e.key === ' ') {
+            e.preventDefault()
+            onOpen(project)
+          }
+        }}
         data-testid={`project-card-${project.id}`}
       >
         <div className="project-card-body">

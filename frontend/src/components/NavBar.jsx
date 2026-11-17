@@ -20,6 +20,7 @@ function NavBar() {
     <Navbar
       fixed="top"
       expand="lg"
+      collapseOnSelect
       className={`custom-nav ${scrolled ? 'nav-scrolled' : ''}`}
       data-testid="main-navbar"
     >
@@ -37,16 +38,16 @@ function NavBar() {
         </Navbar.Toggle>
         <Navbar.Collapse id="main-nav">
           <Nav className="ms-auto">
-            <Nav.Link onClick={() => scrollTo('portfolio')} data-testid="nav-portfolio">
+            <Nav.Link eventKey="portfolio" onClick={() => scrollTo('portfolio')} data-testid="nav-portfolio">
               Portfolio
             </Nav.Link>
-            <Nav.Link onClick={() => scrollTo('about')} data-testid="nav-about">
+            <Nav.Link eventKey="about" onClick={() => scrollTo('about')} data-testid="nav-about">
               About
             </Nav.Link>
-            <Nav.Link onClick={() => scrollTo('skills')} data-testid="nav-skills">
+            <Nav.Link eventKey="skills" onClick={() => scrollTo('skills')} data-testid="nav-skills">
               Skills
             </Nav.Link>
-            <Nav.Link onClick={() => scrollTo('certifications')} data-testid="nav-certs">
+            <Nav.Link eventKey="certifications" onClick={() => scrollTo('certifications')} data-testid="nav-certs">
               Certifications
             </Nav.Link>
             <Nav.Link
